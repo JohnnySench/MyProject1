@@ -4,9 +4,12 @@
 .timeline__up {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid $text;
 }
 .timeline__up-item {
     padding-right: 27rem;
+    width: 50%;
 }
 .timeline__header {
     padding-left: 5.3rem;
@@ -16,5 +19,15 @@
 .timeline__icon {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -1rem;
+}
+.timeline__title {
+    color: $text;
+    font-size: 1.6rem;
+    font-family: $ffMont;
+}
+.timeline__text {
+    font-size: 1.6rem;
+    font-family: $ffOpenSans;
+    color: $medText;
 }
