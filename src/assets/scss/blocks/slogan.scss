@@ -1,0 +1,27 @@
+.slogan {
+    max-width: 50rem;
+    &__title {
+        font-size: 6rem;
+        font-weight: 700;
+        font-family: $ffMont;
+        color: $text;
+    }
+    &__subtitle {
+        margin-top: 4.4rem;
+        font-size: 1.6rem;
+        font-family: $ffOpenSans;
+        font-weight: 400;
+        position: relative;
+        color: $medText;
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            max-width: 20rem;
+            width: 100%;
+            height: 1px;
+            background-color: #979797;
+            top: -2rem;
+        }
+    }
+}

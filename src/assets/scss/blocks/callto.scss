@@ -1,0 +1,27 @@
+.callto {
+    margin-bottom: 8rem;
+    position: relative;
+    height: 616px; // need adap
+    &__inner {
+        padding: 17rem 0;
+    }
+    &::before {
+        position: absolute;
+        content: '';
+        background-image: url(../images/callto/Mask.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: -1;
+        opacity: .5;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: opacity .2s ease-in-out;
+    }
+    &:hover {
+        &::before {
+            opacity: .3;
+        }
+    }
+}

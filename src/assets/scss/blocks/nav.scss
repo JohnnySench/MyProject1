@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__list {
+        display: flex;
+        &-item {
+            margin: 0 3.3rem;
+            font-size: 1.6rem;
+            font-weight: 700;
+            opacity: .9;
+            font-family: 'Montserrat', sans-serif;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+}

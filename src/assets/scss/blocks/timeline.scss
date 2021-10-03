@@ -1,0 +1,20 @@
+.timeline {
+    margin-top: 4rem;
+}
+.timeline__up {
+    display: flex;
+    justify-content: space-between;
+}
+.timeline__up-item {
+    padding-right: 27rem;
+}
+.timeline__header {
+    padding-left: 5.3rem;
+    position: relative;
+    margin-bottom: 2.3rem;
+}
+.timeline__icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
