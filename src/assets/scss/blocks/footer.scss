@@ -1,0 +1,119 @@
+.footer {
+    padding: 7rem 0;
+    background-color: #DFDFDF;
+    &__inner {
+        display: flex;
+    }
+}
+.footer__item {
+    width: 50%;
+}
+.footer__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: $ffMont;
+    line-height: 1.5;
+    color: $text;
+    margin-bottom: 1.5rem;
+}
+.footer__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: $ffOpenSans;
+    line-height: 1.8;
+    color: $medText;
+}
+.footer__email {
+    margin-bottom: 2rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    display: flex;
+    &-icon {
+        margin-right: 1.5rem;
+    }
+    &-address {
+        font-size: 1.4rem;
+        font-family: $ffOpenSans;
+        font-weight: 600;
+        line-height: 2;
+        a {
+            text-decoration: none;
+            color: inherit;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.footer__right {
+    display: flex;
+    margin-top: .5rem;
+}
+.footer__socialmedia {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.footer__icon {
+    img {
+        max-width: none;
+    }
+    position: relative;
+    bottom: -2px;
+    margin-right: 1.2rem;
+}
+.footer__links {
+    text-decoration: none;
+    color: #707070;
+    font-family: $ffOpenSans;
+    line-height: 2;
+    font-size: 1.4rem;
+    font-weight: 600;
+    h3 {
+        font-size: inherit;
+    }
+}
+.footer__input {
+    font-family: $ffOpenSans;
+    font-size: 1.6rem;
+    font-weight: 400;
+    &:focus {
+        outline: none; // Убрал фокус
+    }
+    &::placeholder {
+        font-family: $ffOpenSans;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    border-radius: 2.1rem;
+    border: 1px solid #383636;
+    padding: .6rem 1.8rem;
+    background-color: transparent;
+    max-width: 36.8rem;
+    width: 100%;
+}
+.form {
+    display: flex;
+    align-items: center;
+}
+.social {
+    margin: 0 9rem;
+}
+
+.footer__info {
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer__menu {
+    margin-bottom: 1.4rem;
+    line-height: 2;
+    font-size: 1.4rem;
+    font-family: $ffOpenSans;
+    font-weight: 600;
+    color: #707070;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}

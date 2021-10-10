@@ -2,14 +2,54 @@
     margin-top: 4rem;
 }
 .timeline__up {
+    position: relative;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
     border-bottom: 2px solid $text;
+    &::before {
+        content: '';
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -5.5px;
+        left: -3px;
+        background-color: $text;
+    }
+    &::after {
+        content: '';
+        display: block;
+        height: 2rem;
+        width: 2px;
+        background-color: $text;
+        position: absolute;
+        bottom: 0;
+        left: 55.6rem;
+    }
+}
+.timeline__down {
+    position: relative;
+    &::before {
+        content: '';
+        display: block;
+        height: 2rem;
+        width: 2px;
+        position: absolute;
+        top: -4rem;
+        left: 31rem;
+        background-color: $text;
+    }
 }
 .timeline__up-item {
     padding-right: 27rem;
     width: 50%;
+}
+.timeline__down-item {
+    padding-left: 31.5rem;
+    padding-right: 57.9rem;
 }
 .timeline__header {
     padding-left: 5.3rem;

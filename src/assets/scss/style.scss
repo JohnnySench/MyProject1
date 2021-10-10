@@ -13,16 +13,22 @@ body {
 }
 
 @import 'blocks/container';
+@import 'blocks/btn';
 @import 'blocks/header';
 @import 'blocks/nav';
 @import 'blocks/intro';
 @import 'blocks/dots';
 @import 'blocks/about';
-@import 'blocks/gallery';
+@import 'blocks/gallery-small';
 @import 'blocks/callto';
 @import 'blocks/slogan';
 @import 'blocks/in-work';
 @import 'blocks/timeline';
+@import 'blocks/gallery';
+@import 'blocks/blogpost';
+@import 'blocks/footer';
+@import 'blocks/address';
+
 
 
 
